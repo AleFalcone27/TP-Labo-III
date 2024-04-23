@@ -1,0 +1,14 @@
+/* :root {
+    --primary-color: #ff0000; /* Aquí deberías especificar un color */
+
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: #f5f5f5;
+}
