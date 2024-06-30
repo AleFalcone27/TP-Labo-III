@@ -37,7 +37,14 @@
 .gallery-card .img-container img{
     width: 100%;
     padding-bottom:1vh;
+    transition: 0.5s ease-in-out;
 }
+
+.gallery-card .img-container img:hover{
+    scale: 1.1;
+}
+
+
 
 .gallery-card .tittle-container{
     width: 100%;

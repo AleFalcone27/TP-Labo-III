@@ -73,6 +73,11 @@
     width: 80%;
     height: 35%;
     background-color: #f5f5ff;
+    transition: 0.3s ease-out;
+}
+
+.nuestroblog .blog-card:hover{
+    scale: 1.05;
 }
 
 .nuestroblog .blog-card .img-container{

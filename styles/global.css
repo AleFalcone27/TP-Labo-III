@@ -17,3 +17,11 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+button:hover{
+    scale: 1.05;
+}
+
+li:hover{
+    scale: 1.05;
+}

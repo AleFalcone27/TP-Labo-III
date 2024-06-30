@@ -25,7 +25,13 @@
     align-content: center;
     height: 50vh;
     width: 20vw;
+    transition: 0.5s ease-out;
 }
+
+.about-card:hover {
+  scale: 1.1;
+}
+
 
 .about-card .img-container{
     width: 100%;
