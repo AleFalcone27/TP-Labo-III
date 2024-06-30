@@ -55,11 +55,12 @@
     flex-direction: column;
     text-align: left;
     justify-content: end;
-    font-size: 2em;
     height: 60%;
     width: 50%;
+    margin-top: 10vh;
 }
 
 .subtitle h2{
-    padding: 1vh;
+    padding: 2vh;
+    font-size: 3em;
 }
