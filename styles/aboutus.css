@@ -1,0 +1,54 @@
+.about-us {
+    height: 70vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+
+.about-us h2 {
+    align-self:center;
+    align-content: center;
+    height: 10vh;
+    font-size: 3em;
+    font-weight: 600;
+    color: gray;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-card {
+    align-content: center;
+    height: 50vh;
+    width: 20vw;
+}
+
+.about-card .img-container{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-card .img-container img{
+    width: 60%;
+    padding-bottom:1vh ;
+}
+
+.about-card .tiittle-container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.about-card .description-container{
+    text-align: center;
+}
+
+
