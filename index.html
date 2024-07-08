@@ -14,6 +14,7 @@
     <link rel="icon" href="./assets/images/logo.svg" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+
     <!-- custom styles -->
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/header.css">
@@ -50,198 +51,66 @@
 
 
     <section class="about-us">
-
         <h2> Más sobre nosotros </h2>
-
-        <div class="card-container">
-            <div class="about-card">
-                <div class="img-container">
-                    <img src="./assets/images/icono1.svg" alt="seguridad">
-                </div>
-
-                <div class="tiittle-container">
-                    <h3> SEGURIDAD </h3>
-                </div>
-
-                <div class="description-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ipsam illum repellendus quam magnam facere inventore accusantium!
-                        Reiciendis, expedita, voluptas animi corporis fugit quod facilis
-                        nemo porro, optio dolorem repudiandae officiis!</p>
-                </div>
-            </div>
-
-            <div class="about-card">
-                <div class="about-card">
-                    <div class="img-container">
-                        <img src="./assets/images/icono2.svg" alt="Mejores precios">
-                    </div>
-
-                    <div class="tiittle-container">
-                        <h3> EL MEJOR PRECIO </h3>
-                    </div>
-
-                    <div class="description-container">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Ipsam illum repellendus quam magnam facere inventore accusantium!
-                            Reiciendis, expedita, volupta!</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about-card">
-                <div class="about-card">
-                    <div class="img-container">
-                        <img src="./assets/images/icono3.svg" alt="Velocidad">
-                    </div>
-
-                    <div class="tiittle-container">
-                        <h3> A TIEMPO </h3>
-                    </div>
-
-                    <div class="description-container">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Ipsam illum repellendus quam magnam facere inventore accusantium!
-                            Reiciendis, expedita, voluptas animi corporis fugit quod facilis
-                            nemo porro, optio dolorem repudiandae officiis!</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <div class="card-container" id="about-card-container"></div>
     </section>
-
-    <section class="gallery"> 
-        <h2> Casas y Departamentos en venta </h2>
-        <div class="gallery-card-container">
-            <div class="gallery-card">
-                <div class="img-container">
-                    <img src="./assets/images/anuncio1.jpg" alt="">
-                </div>
-                <div class="tittle-container">
-                    <h4> Casa de Lujo en el Lago </h4>
-                </div>
-
-                <div class="description-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-
-                <div class="number-container">
-                    12345678
-                </div>
-
-                <div class="amenities-container">
-
-                    <div class="icon-container">
-                        <img src="./assets/images/icono_wc.svg" alt="Baños">
-                        <label for="bathroom-icon-container">3</label>
-                    </div>
-
-                    <div class="icon-container">
-                        <img src="./assets/images/icono_estacionamiento.svg" alt="Garge">
-                        <label for="garage-icon-container">2</label>
-                    </div>
-
-                    <div class="icon-container">
-                        <img src="./assets/images/icono_dormitorio.svg" alt="Bedrooms">
-                        <label for="bedroom-icon-container">4</label>
-                    </div>
-                </div>
-                <div class="button-container">
-                    <button>
-                        Ver Propiedad
-                    </button>
-                </div>
+    
+    <template id="about-card-template">
+        <div class="about-card">
+            <div class="img-container">
+                <img src="" alt="">
             </div>
-
-            <div class="gallery-card">
-                <div class="img-container">
-                    <img src="./assets/images/anuncio2.jpg" alt="">
-                </div>
-                <div class="tittle-container">
-                    <h4> Casas terminadas de lujo </h4>
-                </div>
-
-                <div class="description-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-
-                <div class="number-container">
-                    12345678
-                </div>
-
-                <div class="amenities-container">
-
-                    <div class="icon-container">
-                        <img src="./assets/images/icono_wc.svg" alt="Baños">
-                        <label for="bathroom-icon-container">3</label>
-                    </div>
-
-                    <div class="icon-container">
-                        <img src="./assets/images/icono_estacionamiento.svg" alt="Garge">
-                        <label for="garage-icon-container">2</label>
-                    </div>
-
-                    <div class="icon-container">
-                        <img src="./assets/images/icono_dormitorio.svg" alt="Bedrooms">
-                        <label for="bedroom-icon-container">4</label>
-                    </div>
-                </div>
-                <div class="button-container">
-                    <button>
-                        Ver Propiedad
-                    </button>
-                </div>
+            <div class="tiittle-container">
+                <h3></h3>
             </div>
-
-            <div class="gallery-card">
-                <div class="img-container">
-                    <img src="./assets/images/anuncio3.jpg" alt="">
-                </div>
-                <div class="tittle-container">
-                    <h4> Casas con pileta </h4>
-                </div>
-
-                <div class="description-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-
-                <div class="number-container">
-                    12345678
-                </div>
-
-                <div class="amenities-container">
-
-                    <div class="icon-container">
-                        <img src="./assets/images/icono_wc.svg" alt="Baños">
-                        <label for="bathroom-icon-container">3</label>
-                    </div>
-
-                    <div class="icon-container">
-                        <img src="./assets/images/icono_estacionamiento.svg" alt="Garge">
-                        <label for="garage-icon-container">2</label>
-                    </div>
-
-                    <div class="icon-container">
-                        <img src="./assets/images/icono_dormitorio.svg" alt="Bedrooms">
-                        <label for="bedroom-icon-container">4</label>
-                    </div>
-                </div>
-                <div class="button-container">
-                    <button>
-                        Ver Propiedad
-                    </button>
-                </div>
+            <div class="description-container">
+                <p></p>
             </div>
         </div>
+    </template>
 
+    <section class="gallery">
+        <h2> Casas y Departamentos en venta </h2>
+        <div class="gallery-card-container" id="gallery-card-container"></div>
+    
         <div class="btn-todos-container">
             <button class="btn-todos">
                 Ver todos
             </button>
         </div>
-
     </section>
+    
+    <template id="gallery-card-template">
+        <div class="gallery-card">
+            <div class="img-container">
+                <img src="" alt="">
+            </div>
+            <div class="tittle-container">
+                <h4></h4>
+            </div>
+            <div class="description-container">
+                <p></p>
+            </div>
+            <div class="number-container"></div>
+            <div class="amenities-container">
+                <div class="icon-container">
+                    <img src="./assets/images/icono_wc.svg" alt="Baños">
+                    <label></label>
+                </div>
+                <div class="icon-container">
+                    <img src="./assets/images/icono_estacionamiento.svg" alt="Garage">
+                    <label></label>
+                </div>
+                <div class="icon-container">
+                    <img src="./assets/images/icono_dormitorio.svg" alt="Bedrooms">
+                    <label></label>
+                </div>
+            </div>
+            <div class="button-container">
+                <button>Ver Propiedad</button>
+            </div>
+        </div>
+    </template>
 
     <section class="CTA">
         <div class="cta-container">
@@ -262,35 +131,24 @@
 
         <section class="nuestroblog">
             <h3> Nuestro Blog </h3>
-            <div class="blog-card">
-                <div class="img-container">
-                    <img src="./assets/images/blog1.jpg" alt="">
-                </div>
-                <div class="info-container">
-                    <h4> Terraza en el techo de tu casa </h4>
-                    <hr>
-                    <p> Escrito el <b> 27/11/2021 </b> por <b> Alejo Falcone </b> </p>
-                    <p class="description"> Lorem ipsum, dolor sit amet consectetur 
-                        adipisicing elit. Accusantium nam aperiam voluptas reprehenderit 
-                        libero repudiandae! </p>
-                </div>
-            </div>
+            <div class="blog-card-container" id="blog-card-container"></div>
 
-            <div class="blog-card">
-                <div class="img-container">
-                    <img src="./assets/images/blog2.jpg" alt="">
-                </div>
-                <div class="info-container">
-                    <h4> Guia para la decoracion de tu hogar </h4>
-                    <hr>
-                    <p> Escrito el <b> 15/12/202 </b> por <b> Guido Falcone </b> </p>
-                    <p class="description"> Lorem ipsum, dolor sit amet consectetur 
-                        adipisicing elit. Accusantium nam aperiam voluptas reprehenderit 
-                        libero repudiandae! </p>
-                </div>
-            </div>
-
+            
         </section>
+        
+        <template id="blog-card-template">
+            <div class="blog-card">
+                <div class="img-container">
+                    <img src="" alt="">
+                </div>
+                <div class="info-container">
+                    <h4></h4>
+                    <hr>
+                    <p> Escrito el <b></b> por <b></b> </p>
+                    <p class="description"></p>
+                </div>
+            </div>
+        </template>
 
 
         <section class="comentarios">
@@ -328,7 +186,7 @@
             </div>
           </nav>
     </section>
-
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>

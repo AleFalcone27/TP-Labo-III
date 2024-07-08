@@ -74,6 +74,7 @@
     height: 35%;
     background-color: #f5f5ff;
     transition: 0.3s ease-out;
+    margin: 3vh;
 }
 
 .nuestroblog .blog-card:hover{
